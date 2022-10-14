@@ -1,5 +1,5 @@
 /** 
- * this program prints a message to the standard output
+* this program prints a message to the standard output
 */
 #include <stdio.h>
 int main(void)
