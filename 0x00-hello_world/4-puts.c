@@ -1,6 +1,6 @@
 /**
  * main - Displays a message using puts function
- * return - 0 always for success
+ * Return - 0 if successful
  */
 #include <stdio.h>
 int main(void)
