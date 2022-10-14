@@ -1,8 +1,10 @@
 /**
  * main - Displays a message using puts function
- * Return - 0 if successful
- */
+ *
+ * Return: 0
+*/
 #include <stdio.h>
+
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");

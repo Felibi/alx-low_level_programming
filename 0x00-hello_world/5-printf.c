@@ -1,6 +1,6 @@
-/*
+/**
  * main - display message using printf function
- * Return - 0 if successful
+ * Return: 0 if successful
  */
 #include <stdio.h>
 int main(void)
