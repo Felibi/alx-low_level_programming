@@ -1,4 +1,4 @@
-/*
+/**
  * main - Displays a message using puts function
  * return - 0 always for success
  */
