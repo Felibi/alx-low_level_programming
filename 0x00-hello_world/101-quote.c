@@ -1,6 +1,6 @@
 /**
  * main - displays a message to standard error.
- * return: 1
+ * Return: 1
  */
 #include <stdio.h>
 #include <unistd.h>
