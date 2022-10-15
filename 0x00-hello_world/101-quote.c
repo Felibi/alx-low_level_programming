@@ -1,5 +1,6 @@
 /**
  * main - displays a message to standard error.
+ *
  * Return: 1
  */
 #include <stdio.h>
