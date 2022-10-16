@@ -8,7 +8,7 @@ int main(void)
 {
 	char alph = 'a';
 
-	do(alph <= 'z') {
+	do(alph <= 'z'); {
 
 		putchar(alph);
 		alph++;
