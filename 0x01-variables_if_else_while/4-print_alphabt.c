@@ -11,7 +11,8 @@ int main(void)
 
 	while (alph <= 'z')
 	{
-		if (alph == 'q' && alph == 'e')
+		/*alph != 'e', 'q';*/
+		if (alph == 'e' && alph == 'q')
 		{
 			break;
 		}
