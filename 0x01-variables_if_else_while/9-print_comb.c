@@ -8,13 +8,18 @@ int main(void)
 {
 	int sd = '0';
 
-	while (sd <= '9')
+	while (sd < '9')
 	{
 		putchar(sd);
+		if (sd == '9')
+		{
+			break;
+		}
 		putchar(',');
 		putchar(' ');
-		sd++;
+		/*sd++;*/
 	}
+	sd++;
 	putchar('\n');
 	return (0);
 }
