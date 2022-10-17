@@ -6,20 +6,19 @@
  */
 int main(void)
 {
-	int sd = '0';
+	int sd = 0;
 
-	while (sd < '9')
+	while (sd < 10)
 	{
-		putchar(sd);
-		if (sd == '9')
+		putchar(sd + '0');
+		if (sd < 9)
 		{
-			continue;
+			putchar(',');
+			putchar(' ');
 		}
-		putchar(',');
-		putchar(' ');
 		sd++;
 	}
-	/*sd++;*/
+
 	putchar('\n');
 	return (0);
 }
