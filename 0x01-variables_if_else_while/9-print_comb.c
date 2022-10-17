@@ -11,7 +11,7 @@ int main(void)
 	while (sd < '9')
 	{
 		putchar(sd);
-		if (sd == '9')
+		if (sd == "10")
 		{
 			break;
 		}
