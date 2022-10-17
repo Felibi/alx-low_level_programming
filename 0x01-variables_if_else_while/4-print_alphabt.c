@@ -12,12 +12,12 @@ int main(void)
 	while (alph <= 'z')
 	{
 		putchar(alph);
+		alph++;
 		if (alph == 'e')
 		{
-			break;
+			continue;
 		}
-
-		alph++;
+		/*alph++;*/
 	}
 	putchar('\n');
 	return (0);
