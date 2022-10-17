@@ -12,7 +12,7 @@ int main(void)
 	{
 		for (alph = 'q' && alph = 'e')
 		{
-			break;
+			continue;
 		}
 
 		putchar(alph);
