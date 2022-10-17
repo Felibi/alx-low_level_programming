@@ -11,9 +11,9 @@ int main(void)
 	while (sd < '9')
 	{
 		putchar(sd);
-		if (sd == "10")
+		if (sd == '9')
 		{
-			break;
+			continue;
 		}
 		putchar(',');
 		putchar(' ');
