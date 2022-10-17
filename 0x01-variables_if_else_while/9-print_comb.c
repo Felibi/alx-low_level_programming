@@ -17,9 +17,9 @@ int main(void)
 		}
 		putchar(',');
 		putchar(' ');
-		/*sd++;*/
+		sd++;
 	}
-	sd++;
+	/*sd++;*/
 	putchar('\n');
 	return (0);
 }
