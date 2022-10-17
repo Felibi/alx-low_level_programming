@@ -7,16 +7,14 @@
  */
 int main(void)
 {
-	char alph = 'a';
+	char alph;
 
-	while (alph <= 'z')
+	for (alph = 'a'; alph <= 'z'; alph++)
 	{
 		if (alph != 'e' && alph != 'q')
 		{
 			putchar(alph);
-			alph++;
 		}
-		/*alph++;*/
 	}
 	putchar('\n');
 	return (0);
