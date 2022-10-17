@@ -14,7 +14,7 @@ int main(void)
 		putchar(alph);
 		if (alph == 'e')
 		{
-			continue;
+			break;
 		}
 
 		alph++;
