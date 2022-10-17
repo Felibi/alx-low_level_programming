@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdbool.h>
 /**
  * main - display alphabets excluding q and e.
  *
@@ -10,7 +11,7 @@ int main(void)
 
 	while (alph <= 'z')
 	{
-		for (alph = 'q' && alph = 'e')
+		for (alph == 'q'; &&alph == 'e')
 		{
 			continue;
 		}
