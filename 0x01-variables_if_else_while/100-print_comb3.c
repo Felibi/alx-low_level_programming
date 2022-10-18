@@ -8,11 +8,11 @@ int main(void)
 {
 	int k, g, h;
 
-	g = 48;
+	g = '0';
 
-	for (k = 48; k <= 58; k++)
+	for (k = '0'; k <= '9'; k++)
 	{
-		for (h = g; h <= 58; h++)
+		for (h = g; h <= '9'; h++)
 		{
 			if (k != h)
 			{
@@ -23,7 +23,7 @@ int main(void)
 			{
 				continue;
 			}
-			else if (k == 56 && h == 57)
+			else if (k == '8' && h == '9')
 			{
 				break;
 			}
