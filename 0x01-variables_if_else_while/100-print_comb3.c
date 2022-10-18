@@ -18,7 +18,7 @@ int main(void)
 			}
 			putchar(k);
 			putchar(h);
-			if (k == 8 && h == 9)
+			if (k == '8' && h == '9')
 			{
 				break;
 			}
