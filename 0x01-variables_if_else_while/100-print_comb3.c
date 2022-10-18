@@ -8,9 +8,9 @@ int main(void)
 {
 	int k, h;
 
-	for (k = '0'; k <= '9'; k++)
+	for (k = '0'; k < '9'; k++)
 	{
-		for (h = '0'; h <= '9'; h++)
+		for (h = '0'; h < '9'; h++)
 		{
 			if (k == h)
 			{
