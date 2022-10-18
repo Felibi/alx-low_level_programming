@@ -8,9 +8,9 @@ int main(void)
 {
 	int k, h;
 
-	for (k = '0'; k < '9'; k++)
+	for (k = 48; k < 58; k++)
 	{
-		for (h = '0'; h < '9'; h++)
+		for (h = 48; h < 58; h++)
 		{
 			if (k == h)
 			{
@@ -18,7 +18,7 @@ int main(void)
 			}
 			putchar(k);
 			putchar(h);
-			if (k == '8' && h == '9')
+			if (k == 56 && h == 57)
 			{
 				break;
 			}
