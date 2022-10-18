@@ -8,49 +8,33 @@ int main(void)
 {
 	int k, h;
 
-	k = 48;
+	g = 48;
 
-	while (k < 58)
+	for (k = 48; k <= 58; k++)
 	{
-		h = 48;
-
-		while (h < 58)
+		for (h = g; h <= 58; h++)
 		{
-			putchar(k);
-			putchar(h);
-			h++;
-			putchar(',');
-			putchar(' ');
+			if (k != h)
+			{
+				putchar(k);
+				putchar(h);
+			}
+			if (k == h)
+			{
+				continue;
+			}
+			else if (k == 56 && h == 57)
+			{
+				break;
+			}
+			else
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
-		k++;
+		g++;
 	}
 	putchar('\n');
 	return (0);
 }
-/**
- *
- *	for (k = 48; k < 58; k++)
- *	{
- *		for (h = 48; h < 58; h++)
- *		{
- *			if (k == h)
- *			{
- *				continue;
- *			}
- *			putchar(k);
- *			putchar(h);
- *			if (k == 56 && h == 57)
- *			{
- *				break;
- *			}
- *			else
- *			{
- *				putchar(',');
- *				putchar(' ');
- *			}
- *		}
- *	}
- *	putchar('\n');
- *	return (0);
- *}
- */
