@@ -19,7 +19,7 @@ int main(void)
 					putchar(v);
 					putchar(g);
 					putchar(c);
-					if (v == '7' && g == '8' && c == '9');
+					if (v == '7' && g == '8' && c == '9')
 					{
 						break;
 					}
