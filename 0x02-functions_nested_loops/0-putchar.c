@@ -5,7 +5,7 @@
  *
  * Return: 0
  */
-int _putchar(char _putchar)
+int _putchar(char )
 {
-	return (write(0, &\_putchar, 0));
+	return (write(1, &c, 1));
 }
