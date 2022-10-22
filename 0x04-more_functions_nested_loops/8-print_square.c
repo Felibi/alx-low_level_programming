@@ -4,7 +4,7 @@
  * print_square - print square
  * @size: size of square
  *
- * Return: nothing
+ * Return: void
  */
 
 
@@ -18,7 +18,7 @@ void print_square(int size)
 	{
 		for (k = 0; k < size; K++)
 		{
-			for (b = 0; b < (size); b++)
+			for (b = 0; b < size; b++)
 			{
 				_putchar('35');
 			}
