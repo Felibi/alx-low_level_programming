@@ -11,10 +11,6 @@ void print_most_numbers(void)
 	{
 		if (k != 2 && k != 4)
 		{
-			continue;
-		}
-		else
-		{
 			_putchar(k + '0');
 		}
 	}
