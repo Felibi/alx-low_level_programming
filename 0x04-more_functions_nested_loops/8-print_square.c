@@ -9,7 +9,9 @@ void print_square(int size)
 	int k, b;
 
 	if (size <= 0)
+	{
 		_putchar('\n');
+	}
 	else
 	{
 		for (k = 0; k < size; K++)
