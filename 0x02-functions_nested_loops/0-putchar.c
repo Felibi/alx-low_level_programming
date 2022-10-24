@@ -2,6 +2,7 @@
 
 /**
  * _putchar - prints out _putchar.
+ * @c: the char xter
  *
  * Return: 0
  */
