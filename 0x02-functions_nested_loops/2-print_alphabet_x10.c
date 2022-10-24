@@ -7,6 +7,7 @@
 void print_alphabet_x10(void)
 {
 	char alphTEN, k;
+
 	k = 0;
 
 	while (k++ <= 9)
