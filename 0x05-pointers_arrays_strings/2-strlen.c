@@ -4,15 +4,15 @@
  * _strlen - returns the length of a string.
  * @s: xter variable.
  *
- * Return: 0
+ * Return: length of string
  */
 int _strlen(char *s)
 {
-	int len;
+	int k = 0;
 
-	for (; *s != '\0'; s++)
+	for (; *s++;)
 	{
-		len += 1;
+		k++;
 	}
-	return (len);
+	return (k);
 }
